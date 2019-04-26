@@ -20,7 +20,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # s3 packages
-MONO_PACKAGE="https://download.mono-project.com/sources/mono/mono-5.20.1.27.tar.bz2"
+MONO_PACKAGE="https://github.com/AdamBurgess/heroku-buildpack-mono/releases/download/mono-4.2.2.30/mono-minimal.tar.xz"
 
 # vendor directories
 VENDORED_MONO="$(mktmpdir mono)"
