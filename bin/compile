@@ -12,7 +12,7 @@ mktmpdir() {
 }
 
 # config
-MONO_VERSION="2.10.8"
+MONO_VERSION="5.20.1.19
 S3_BUCKET="bh-buildpack-mono"
 
 # parse and derive params
